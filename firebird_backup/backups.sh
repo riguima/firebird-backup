@@ -1,3 +1,3 @@
 # Adicione abaixo os backups, como no exemplo abaixo
 
-gbak -c -t -user SYSDBA -password masterkey ip_do_servidor:/firebird/data/db.fdb /firebird-backup/firebird/restore/db.fbk
+gbak -b -user SYSDBA -password masterkey /firebird_backup/firebird/data/db.fdb /firebird_backup/firebird/backups/db.fbk
