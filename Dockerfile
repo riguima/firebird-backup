@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM debian:bullseye-slim
 WORKDIR firebird_backup
 COPY ./firebird_backup .
 RUN apt update
